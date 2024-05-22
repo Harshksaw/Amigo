@@ -77,7 +77,7 @@ const AppNavigator = () => {
                                 headerTintColor: '#fff',
                             }}
                         />
-                        {/* <Stack.Screen
+                        <Stack.Screen
                             name={PAGES.SCANNER}
                             component={QRCodeScanner}
                             options={{
@@ -86,7 +86,7 @@ const AppNavigator = () => {
                                 },
                                 headerTintColor: '#fff',
                             }}
-                        /> */}
+                        />
                         <Stack.Screen
                             name={PAGES.GROUP_BALANCE}
                             component={GroupBalance}
